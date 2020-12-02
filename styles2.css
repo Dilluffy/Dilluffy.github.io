@@ -64,7 +64,7 @@ nav li{
     padding-left: 1.7em;
     padding-top: 1.4em;
     margin-right: 1.9em;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 nav li a:hover{
@@ -232,7 +232,14 @@ nav li a:hover{
 /* For big screens, make grid */
 
 @media(min-width: 700px){
-
+    
+    nav li{
+    display: inline-block;
+    padding-left: 1.7em;
+    padding-top: 1.4em;
+    margin-right: 1.9em;
+    font-size: 19px;
+}
     #showcase h1{
         padding-top: 186px;
         font-size: 85px;
